@@ -130,9 +130,9 @@ npm run dev
   * 지하철 역(`Station`) : 616 건
   * 지하철 구간(`Section`) : 340 건
 * **VUser**
-  * 하루 총 10번의 요청, 총 Latency 목표값 0.2s 가정
-  * T = (10번 * 0.2s) = 2
-  * VUser = (115 * 2) / 2 = 115
+  * 하루 총 5번의 요청, 총 Latency 목표값 0.2s 가정
+  * T = (5번 * 0.2s) = 1
+  * VUser = (115 * 1) / 5 = 23
 
 4. Smoke, Load, Stress 테스트 스크립트와 결과를 공유해주세요
  * Smoke 테스트 : `/docs/smoke/`
